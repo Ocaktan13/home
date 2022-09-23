@@ -1,0 +1,39 @@
+from django.urls import path
+urlpatterns=[
+    path(“ ”,views.home))
+    path(“ ”,include(movies.urls'))
+    
+    
+    
+    
+    
+    
+    from django.shortcuts import render
+katogoriler =[“macera“,“romantik“,“dram“,“bilim kurgu“]
+film_list=[“film1“,“film2“,“film3“]
+def home(request):
+    data={
+        “kategori“:kategoriler
+         “fimler“:  film_list 
+
+
+    }
+    return render(“request,“index.html” ,data)
+     
+   
+    
+    <h1>Home page</h1>
+
+<ul>
+{ %for k in k%}
+<li>{{kategori}}
+{ % end for    %}
+
+<div id= “filmler“>
+{ %for film in filmler%}
+<p>{{sineklerin tanrısı}}</p>
+ </div>
+
+<li>Macera</li>
+<li>Romantik</li>
+<li>Dram</li>
