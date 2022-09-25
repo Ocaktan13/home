@@ -1,0 +1,38 @@
+<!DOCTYPE html >
+< html  lang =" tr " >
+< kafa >
+    < meta  karakter kümesi =" UTF-8 " >
+    < meta  http-equiv =" X-UA-Uyumlu " içerik =" IE=edge " >
+    < meta  name =" viewport " content =" width=cihaz genişliği, ilk ölçek=1.0 " >
+    < başlık > Belge </ başlık >
+    < link  rel =" stil sayfası " href =" lokomotif.css " />
+    < link  rel =" stil sayfası " href =" app.css " />
+</ kafa >
+< gövde >
+    < div  veri kaydırma kabı >
+        < div  class =" sağ bölüm " >
+            < div  sınıfı =" içerik " >
+                < div  class =" content-title " > Hayallerinizden daha fazlası. </ div >
+                < div  class =" content-desc " > Lorem ipsum dolor sit amet conectetur adipisicing elit. Officiis quisquam rasyona yeniden yorumlanma nisi tempora exercitationem optio! Aperiam vel vel rerum eius debitis rasyona quia adipisci officia itaque ve iure dolore modi, yozlaşmış veritatis, non odio? Daha fazla bilgi için bkz. </ div >
+            </ div >
+            < img  class =" sol " data-scroll  data-scroll-speed =" 3 " src =" https://images.pexels.com/photos/3048527/pexels-photo-3048527.png?auto=compress&cs=tinysrgb&dpr= 2&h=750&w=1260 " alt =" resim " />
+            < img  class =" sol ikinci " data-scroll  data-scroll-speed =" 6 " src =" https://images.pexels.com/photos/5618651/pexels-photo-5618651.png?auto=compress&cs=tinysrgb&dpr =2&h=750&w=1260 " alt =" resim " />
+        </ div >
+        < div  class =" sol bölüm " >
+            < div  sınıfı =" içerik " >
+                < div  class =" content-title " > Hayallerinizden daha fazlası. </ div >
+                < div  class =" content-desc " > Lorem ipsum dolor sit amet conectetur adipisicing elit. Officiis quisquam rasyona yeniden yorumlanma nisi tempora exercitationem optio! Aperiam vel vel rerum eius debitis rasyona quia adipisci officia itaque ve iure dolore modi, yozlaşmış veritatis, non odio? Daha fazla bilgi için bkz. </ div >
+            </ div >
+            < img  class =" sağ " data-scroll  data-scroll-speed =" 3 " src =" https://images.pexels.com/photos/1793525/pexels-photo-1793525.jpeg?auto=compress&cs=tinysrgb&dpr= 2&h=750&w=1260 " alt =" resim " />
+            < img  class =" sağ saniye " data-scroll  data-scroll-speed =" 5 " src =" https://images.pexels.com/photos/1010079/pexels-photo-1010079.jpeg?auto=compress&cs=tinysrgb&dpr =2&h=750&w=1260 " alt =" resim " />
+        </ div >
+    </ div >
+
+    < script  src =" lokomotif-scroll.min.js " > </ komut dosyası >
+    < komut dosyası >
+        var  scroll  =  new  LocomotiveScroll ( {
+            el : belge . querySelector ( '[veri kaydırma kabı]' ) ,
+            pürüzsüz : doğru
+        } ) ;
+    </ komut dosyası >
+</ gövde >
